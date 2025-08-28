@@ -33,15 +33,15 @@ It demonstrates smooth frontend-backend integration using **Express.js**.
    cd event-booking-platform
    ```
 2. **Install dependencies**
- ```
+   ```
    npm install
- ```
+   ```
 3. **Run the server**
-    ```
+   ```
    node server.js
-    ```
+   ```
 4. **Open in browser**
-    ```
+   ```
    http://localhost:3000
-    ```
+   ```
 
