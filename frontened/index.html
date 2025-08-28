@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Booking Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Event Booking Platform</h1>
+  </header>
+
+  <!-- Search & Sort -->
+  <section id="controls">
+    <input type="text" id="search" placeholder="Search events...">
+    <select id="sort">
+      <option value="default">Sort by Date</option>
+      <option value="asc">Earliest First</option>
+      <option value="desc">Latest First</option>
+    </select>
+  </section>
+
+  <!-- Events List -->
+  <section id="events-section">
+    <h2>Upcoming Events</h2>
+    <div id="events-container"></div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking-section">
+    <h2>Book Your Ticket</h2>
+    <form id="booking-form">
+      <label for="event-select">Select Event:</label>
+      <select id="event-select"></select>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your email" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+    <div id="booking-message"></div>
+  </section>
+
+  <!-- Booking History -->
+  <section id="history-section">
+    <h2>Your Bookings</h2>
+    <div id="history-container"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

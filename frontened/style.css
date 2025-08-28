@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #28a745;
+  color: white;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+#controls {
+  margin: 20px 0;
+}
+
+#controls input, #controls select {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+#events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.event-card {
+  background: white;
+  width: 250px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.event-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form {
+  background: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#booking-message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#history-container div {
+  margin: 5px 0;
+  background: #e0ffe0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .event-card {
+    width: 90%;
+  }
+  input, select, button {
+    width: 95%;
+  }
+}
+.event-card button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.event-card button:hover {
+  background-color: #fa5252;
+}
+
+.event-card input[type="number"] {
+  width: 60px;
+  padding: 4px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

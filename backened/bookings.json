@@ -1,0 +1,44 @@
+[
+  {
+    "eventId": "E0002",
+    "name": "Laya",
+    "email": "rani@gmail.com",
+    "id": "B1598"
+  },
+  {
+    "eventId": "E0001",
+    "name": "Rani",
+    "email": "rani@gmail.com",
+    "id": "B0321"
+  },
+  {
+    "eventId": "E0001",
+    "name": "triveni",
+    "email": "triveni67@gmail.com",
+    "id": "B8896"
+  },
+  {
+    "eventId": "E0004",
+    "name": "Ram",
+    "email": "ram@gmail.com",
+    "id": "B3401"
+  },
+  {
+    "id": "B7129",
+    "eventId": "E0002",
+    "name": "rama",
+    "email": "rama@gmail.com"
+  },
+  {
+    "eventId": "E0004",
+    "name": "Laya",
+    "email": "rani@gmail.com",
+    "id": "B6307"
+  },
+  {
+    "eventId": "E0005",
+    "name": "Ram",
+    "email": "ram@gmail.com",
+    "id": "B8081"
+  }
+]

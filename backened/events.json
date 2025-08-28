@@ -1,0 +1,68 @@
+[
+  {
+    "id": "E0001",
+    "name": "Music Concert",
+    "date": "2025-09-10",
+    "time": "18:00",
+    "category": "Music",
+    "description": "Live music concert with popular bands.",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80",
+    "seats": 50,
+    "rating": 0
+  },
+  {
+    "id": "E0002",
+    "name": "Art Workshop",
+    "date": "2025-09-15",
+    "time": "10:00",
+    "category": "Art",
+    "description": "Creative painting and craft workshop.",
+    "image": "https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=400&q=80",
+    "seats": 19,
+    "rating": 0
+  },
+  {
+    "id": "E0003",
+    "name": "Tech Talk",
+    "date": "2025-09-20",
+    "time": "14:00",
+    "category": "Technology",
+    "description": "A talk on emerging tech trends.",
+    "image": "https://a2tech360.com/wp-content/uploads/2019/02/Web-Tech-Talk-June-15-2018-8803.jpg",
+    "seats": 30,
+    "rating": 0
+  },
+  {
+    "id": "E0004",
+    "name": "Food Festival",
+    "date": "2025-09-25",
+    "time": "12:00",
+    "category": "Food",
+    "description": "Taste and enjoy dishes from around the world.",
+    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=400&q=80",
+    "seats": 40,
+    "rating": 0
+  },
+  {
+    "id": "E0005",
+    "name": "Yoga Retreat",
+    "date": "2025-09-28",
+    "time": "08:00",
+    "category": "Wellness",
+    "description": "Morning yoga sessions in a peaceful environment.",
+    "image": "https://magazine.bluekarmasecrets.com/wp-content/uploads/2020/06/THE-DIFFERENT-TYPES-OF-YOGA-RETREATS_Header-1200x628.jpg",
+    "seats": 25,
+    "rating": 0
+  },
+  {
+    "id": "E0006",
+    "name": "Film Screening",
+    "date": "2025-10-02",
+    "time": "19:00",
+    "category": "Entertainment",
+    "description": "Watch indie films with director Q&A session.",
+    "image": "https://www.redsharknews.com/hubfs/Imported_Blog_Media/a447639aac04605c6d357aff0e488df0-1.jpg",
+    "seats": 35,
+    "rating": 0
+  }
+]
